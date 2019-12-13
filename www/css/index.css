@@ -191,7 +191,7 @@ span{
 } */
 .btnNotActive {
     z-index: -100;
-    bottom:-5rem;
+    display: none;
 }
 
 #div{
