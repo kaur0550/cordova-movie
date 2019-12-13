@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.algonquin.kaur0550.cordova_app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>kaur0550</name>
+    <description>
+        You can search for your favourite actor and their movies. This application is based on The movie database.
+    </description>
+    <author email="kaur0550@algonquinlive.com" href="http://github.com/kaur0550/cordova-movie/">
+        Anoopinder Kaur
+    </author>
+    <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <icon src ="/res/icon/android/icon-hdpi.png" density = "hdpi" /> 
+        <icon src ="/res/icon/android/icon-mdpi.png" density = "mdpi" />
+        <icon src ="/res/icon/android/icon-xhdpi.png" density = "xhdpi" />
+        <icon src ="/res/icon/android/icon-xxhdpi.png" density = "xxhdpi" />
+        <icon src ="/res/icon/android/icon-xxxhdpi.png" density = "xxxhdpi" />
+
+        <splash src="/res/screen/android/HDPI_Landscape.png" density="land-hdpi"/>
+        <splash src="/res/screen/android/XHDPI_Landscape.png" density="land-xhdpi"/>
+        <splash src="/res/screen/android/HDPI_Portrail.png" density="port-hdpi"/>
+        <splash src="/res/screen/android/XHDPI_Portrait.png" density="port-xhdpi"/>
+
+        <splash src="/res/screen/android/XXHDPI_Landscape.png" density="land-xxhdpi"/>
+        <splash src="/res/screen/android/XXXHDPI_Landscape.png" density="land-xxxhdpi"/>
+        <splash src="/res/screen/android/XXHDPI_Portrait.png" density="port-xxhdpi"/>
+        <splash src="/res/screen/android/XXXHDPI_Portrait.png" density="port-xxxhdpi"/>
+
+        <splash src="/res/screen/android/MDPI_Landscape.png" density="land-mdpi"/>
+        <splash src="/res/screen/android/MDPI_Portrait.png" density="port-mdpi"/>
+
+        <preference name="AutoHideSplashScreen" value="true" />
+        <preference name="SplashScreenDelay" value="5000" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+</widget>
